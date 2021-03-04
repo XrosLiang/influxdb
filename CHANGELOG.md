@@ -11,13 +11,13 @@ the endpoint has been removed. Use the `/metrics` endpoint to collect system sta
 
 ### Features
 
-1. [20827](https://github.com/influxdata/influxdb/pull/20827): Add `--pprof-disabled` option to `influxd` to disable exposing profiling information over HTTP.
-1. [20827](https://github.com/influxdata/influxdb/pull/20827): Add `/debug/pprof/all` HTTP endpoint to gather all profiles at once.
-1. [20827](https://github.com/influxdata/influxdb/pull/20827): Upgrade `http.pprof-enabled` config in `influxd upgrade`.
+1. [20860](https://github.com/influxdata/influxdb/pull/20860): Add `--pprof-disabled` option to `influxd` to disable exposing profiling information over HTTP.
+1. [20860](https://github.com/influxdata/influxdb/pull/20860): Add `/debug/pprof/all` HTTP endpoint to gather all profiles at once.
+1. [20860](https://github.com/influxdata/influxdb/pull/20860): Upgrade `http.pprof-enabled` config in `influxd upgrade`.
 
 ### Bug Fixes
 
-1. [20827](https://github.com/influxdata/influxdb/pull/20827): Remove unauthenticated, unsupported `/debug/vars` HTTP endpoint.
+1. [20860](https://github.com/influxdata/influxdb/pull/20860): Remove unauthenticated, unsupported `/debug/vars` HTTP endpoint.
 
 ## v2.0.4 [2021-02-08]
 ----------------------
